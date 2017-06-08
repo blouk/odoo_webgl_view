@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record model="ir.ui.view" id="webgl_view">
+        <field name="name">Webgl View</field>
+        <field name="model">res.users</field>
+        <field name="arch" type="xml">
+            <webgl name="Webgl view"/>
+        </field>
+    </record>
+    <record model="ir.actions.act_window" id="base.action_res_users">
+        <field name="name">Webgl</field>
+        <field name="res_model">res.users</field>
+        <field name="view_mode">tree,form,webgl</field>
+    </record>
+</odoo>
