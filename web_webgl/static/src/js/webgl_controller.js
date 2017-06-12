@@ -10,20 +10,16 @@ odoo.define('web_webgl.WebglController', function(require) {
     var QWeb = core.qweb;
     var FormViewDialog = view_dialogs.FormViewDialog;
 
-    /**
-     * Diagram Controller
-     */
     var WebglController = AbstractController.extend({
 
-        custom_events: {
 
-        },
+
 
         init: function(parent, model, renderer, params) {
-            console.log('controller')
             this._super.apply(this, arguments);
             this.renderer.webgl = model.webgl;
         }
+
     });
     return WebglController;
 });

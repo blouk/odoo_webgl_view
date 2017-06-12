@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 {
-    'name': 'Test',
+    'name': 'Webgl View',
     'category': 'Hidden',
     'description': """
     Webgl view data
@@ -11,7 +11,6 @@
         'views/webgl_view.xml',
         'views/asset_backend.xml',
     ],
-    'qweb': ['static/src/xml/base_view.xml'],
     'demo': [
     ],
     'application': True,

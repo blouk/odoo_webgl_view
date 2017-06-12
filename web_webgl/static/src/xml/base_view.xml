@@ -1,5 +1,0 @@
-<templates>
-    <t t-name="WebglView">
-        <div id="o_webgl_view_container"></div>
-    </t>
-</templates>
