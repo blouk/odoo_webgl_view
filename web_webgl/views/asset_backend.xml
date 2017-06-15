@@ -2,8 +2,7 @@
 <odoo>
     <template id="assets_backend" name="web_webgl assets" inherit_id="web.assets_backend">
         <xpath expr="." position="inside">
-                    <link rel="stylesheet" type="text/less" href="/web_webgl/static/src/less/webgl.less"/>
-
+            <link rel="stylesheet" type="text/less" href="/web_webgl/static/src/less/webgl.less"/>
             <script type="text/javascript" src="/web_webgl/static/src/node_modules/three/build/three.min.js"></script>
             <script type="text/javascript" src="/web_webgl/static/src/js/webgl_renderer.js"></script>
             <script type="text/javascript" src="/web_webgl/static/src/js/webgl_view.js"></script>

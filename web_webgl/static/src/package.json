@@ -7,7 +7,7 @@
   },
   "author": "nwi",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "three": "^0.85.2"
   }
 }

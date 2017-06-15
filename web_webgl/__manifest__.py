@@ -8,7 +8,6 @@
         """,
     'depends': ['web'],
     'data': [
-        'views/webgl_view.xml',
         'views/asset_backend.xml',
     ],
     'demo': [

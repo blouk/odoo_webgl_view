@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem name="WebSocket" id="menu_websocket_config"  web_icon="web_socket_server,static/description/icon.png" sequence="-1" groups="base.group_system"/>
+</odoo>

@@ -12,9 +12,6 @@ odoo.define('web_webgl.WebglController', function(require) {
 
     var WebglController = AbstractController.extend({
 
-
-
-
         init: function(parent, model, renderer, params) {
             this._super.apply(this, arguments);
             this.renderer.webgl = model.webgl;
