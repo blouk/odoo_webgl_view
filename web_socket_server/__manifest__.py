@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 {
     'name': 'Web Socket Server',
     'category': 'Extra Tools',
@@ -8,10 +7,12 @@
         """,
     'depends': ['base'],
     'data': [
+        'security/ir.model.access.csv',
+        'data/data.xml',
         'views/socket_server_view.xml',
     ],
-
-
-    'application': True,
+    'qweb': ['static/src/xml/web_socket_dashboard.xml'],
     'installable': True,
+    'auto_install': False,
+    'application': True,
 }

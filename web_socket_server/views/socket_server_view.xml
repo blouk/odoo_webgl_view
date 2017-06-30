@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem name="WebSocket" id="menu_websocket_config"  web_icon="web_socket_server,static/description/icon.png" sequence="-1" groups="base.group_system"/>
+    <record id="web_socket_settings_dashboard_action" model="ir.actions.client">
+        <field name="name">Websocket</field>
+        <field name="tag">web_socket_settings_dashboard.main</field>
+    </record>
+    <menuitem action="web_socket_settings_dashboard_action"  name="WebSocket" id="menu_websocket_configuration" web_icon="web_socket_server,static/description/icon.png" sequence="30" groups="base.group_system"/>
+
+
+    <template id="assets_backend"  inherit_id="web.assets_backend" priority="17">
+        <xpath expr="." position="inside">
+            <link href="/web_socket_server/static/src/less/websocket.less" rel="stylesheet" type="text/less"/>
+            <script type="text/javascript" src="/web_socket_server/static/src/js/websocket.js"></script>
+        </xpath>
+    </template>
+
 </odoo>

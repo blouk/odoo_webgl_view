@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates xml:space="preserve">
+    <t t-name="WebSocketSettingsDashboard">
+        <div class="container-fluid ws_main">
+            <div class="col-md-12">
+                <h2 class="mb20">Web Socket Server
+                    <small>status :
+                        <span class="badge badge-success">Open</span>
+                        <span class="badge badge-danger">Close</span>
+                    </small>
+                </h2>
+                <button type="button" class="ws-start btn btn-primary btn-lg">Start Server</button>
+                <button type="button" class="ws-stop btn btn-danger btn-lg">Stop Server</button>
+                <h2 class="mb20 mt20">Server log</h2>
+                <textarea id="ws_server_status" class="form-control"/>
+                <div class="pull-right">
+                    <button type="button" class="ws-clear-console btn btn-primary btn-xs">clear</button>
+                </div>
+            </div>
+        </div>
+    </t>
+</templates>
